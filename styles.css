@@ -22,6 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 10px;
 }
 
 .logo {
@@ -54,6 +55,11 @@ body {
   color: #88998d;
   margin: 10px 0 20px 0;
   padding: 10px 0 0 10px;
+}
+
+.login-field:focus-within {
+  color: rgb(29, 161, 242);
+  border-bottom: 1px solid rgb(29, 161, 242);
 }
 
 .label-login {
