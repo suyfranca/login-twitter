@@ -23,6 +23,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 10px;
+  max-width: 100%;
 }
 
 .logo {
